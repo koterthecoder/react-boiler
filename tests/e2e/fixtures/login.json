@@ -1,0 +1,11 @@
+{
+  "success": true,
+  "token":
+    "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1YjI0ZGFkYTMxMGQyMTdmZjM5MDEyYzAiLCJpYXQiOjE1MjkxNDIxMTd9.GI4lu7HFB0j3mnsJwX2LjGmGOblUq-X0NnGqD2YRMt0",
+  "user": {
+    "first_name": "Billy",
+    "last_name": "Bob",
+    "email": "billybob@example.com",
+    "id": "5b24dada310d217ff39012c0"
+  }
+}

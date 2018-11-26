@@ -1,0 +1,7 @@
+dist
+node_modules
+.cache
+*.log
+.DS_Store
+tests/e2e/screenshots
+tests/e2e/videos

@@ -1,0 +1,10 @@
+{
+  "success": true,
+  "player": {
+    "first_name": "Tom",
+    "last_name": "Riddle",
+    "rating": 8000,
+    "handedness": "left",
+    "id": "5b24deb1310d217ff39012c4"
+  }
+}

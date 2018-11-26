@@ -1,0 +1,26 @@
+{
+	"success": true,
+	"players": [
+		{
+			"first_name": "Hermione",
+			"last_name": "Granger",
+			"rating": 9999,
+			"handedness": "right",
+			"id": "5b24de43310d217ff39012c2"
+		},
+		{
+			"first_name": "Ron",
+			"last_name": "Weasley",
+			"rating": 8000,
+			"handedness": "left",
+			"id": "5b24de63310d217ff39012c3"
+		},
+		{
+			"first_name": "Tom",
+			"last_name": "Riddle",
+			"rating": 8000,
+			"handedness": "left",
+			"id": "5b24deb1310d217ff39012c4"
+		}
+	]
+}

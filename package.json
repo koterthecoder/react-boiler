@@ -1,0 +1,65 @@
+{
+  "name": "react-boiler",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "start": "cross-env NODE_ENV=development parcel src/index.html -p 3000",
+    "build": "cross-env NODE_ENV=production parcel build src/index.html ",
+    "e2e": "cypress open",
+    "lint:js": "eslint src/**/**/*.js src/**/**/*.jsx tests/**/**/*.js",
+    "lint:style": "stylelint src/**/**/*.css src/**/**/*.scss",
+    "test": "jest"
+  },
+  "jest": {
+    "testPathIgnorePatterns": [
+      "/tests/e2e"
+    ]
+  },
+  "dependencies": {
+    "babel-preset-react-app": "^3.1.1",
+    "cross-env": "^5.2.0",
+    "cypress": "^3.0.2",
+    "google-map-react": "^1.0.9",
+    "history": "^4.7.2",
+    "jquery": "^3.3.1",
+    "node-sass": "^4.9.3",
+    "parcel-bundler": "^1.9.0",
+    "paypal-rest-sdk": "^1.8.1",
+    "prop-types": "^15.6.2",
+    "rc-time-picker": "^3.4.0",
+    "react": "^16.4.1",
+    "react-collapse": "^4.0.3",
+    "react-countdown-now": "^1.3.0",
+    "react-datepicker": "^1.6.0",
+    "react-dom": "^16.4.1",
+    "react-dropzone": "^6.0.2",
+    "react-facebook-login": "^4.1.1",
+    "react-favicon": "0.0.14",
+    "react-image-lightbox": "^5.0.0",
+    "react-motion": "^0.5.2",
+    "react-redux": "^5.0.7",
+    "react-render-html": "^0.6.0",
+    "react-router-dom": "^4.3.1",
+    "react-router-sitemap": "^1.1.5",
+    "redux": "^4.0.0",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0",
+    "throttle-debounce": "^2.0.1",
+    "whatwg-fetch": "^2.0.4"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.9.1",
+    "fetch-mock": "^6.5.2",
+    "jest": "^23.5.0",
+    "prettier": "^1.13.5",
+    "prettierrc": "0.0.0-5",
+    "react-test-renderer": "^16.4.1",
+    "redux-mock-store": "^1.5.3",
+    "stylelint": "^9.3.0",
+    "stylelint-config-standard": "^18.2.0"
+  }
+}

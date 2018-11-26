@@ -1,0 +1,23 @@
+{
+  "extends": "airbnb",
+  "plugins": ["react"],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true,
+      "ecmaVersion": 6,
+      "impliedStrict": true
+    }
+  },
+  "rules": {
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
+  },
+  "env": {
+    "browser": true,
+    "mocha": true,
+    "jest": true
+  },
+  "globals": {
+    "Cypress": true,
+    "cy": true
+  }
+}
